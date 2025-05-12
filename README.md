@@ -7,14 +7,20 @@
 </p>
 
 ### :package: Kjørbar binærfil
-Hvis du ønsker å prøve programmet i Windows uten å kompilere koden selv ?, laste ned fra [Releases-delen her](https://github.com/tbrautaset/Mimre/releases/download/0.1a/mimmring_fra_80_tallet.zip).
+Hvis du ønsker å prøve programmet i Windows uten noe fuzz ?, last ned fra [Releases-delen her](https://github.com/tbrautaset/Mimre/releases/download/0.1a/mimmring_fra_80_tallet.zip).
 
-### :gear: Kompilering
+### :gear: Kompilering og kjøring
 ```bash
-cargo run / python src\ eller /main.py
-   _____  .__                      .__                   _____                  ______ _______      __         .__  .__          __   
-  /     \ |__| _____   ____________|__| ____    ____   _/ ____\___________     /  __  \\   _  \   _/  |______  |  | |  |   _____/  |_ 
- /  \ /  \|  |/     \ /     \_  __ \  |/    \  / ___\  \   __\\_  __ \__  \    >      </  /_\  \  \   __\__  \ |  | |  | _/ __ \   __\
-/    Y    \  |  Y Y  \  Y Y  \  | \/  |   |  \/ /_/  >  |  |   |  | \// __ \_ /   --   \  \_/   \  |  |  / __ \|  |_|  |_\  ___/|  |  
-\____|__  /__|__|_|  /__|_|  /__|  |__|___|  /\___  /   |__|   |__|  (____  / \______  /\_____  /  |__| (____  /____/____/\___  >__|  
-        \/         \/      \/              \//_____/                      \/         \/       \/             \/               \/      
+cargo run eller python -m pip install --upgrade pip pygame; python .\src\main.py
+   _____  .__                      .__                   _____               
+  /     \ |__| _____   ____________|__| ____    ____   _/ ____\___________   
+ /  \ /  \|  |/     \ /     \_  __ \  |/    \  / ___\  \   __\\_  __ \__  \  
+/    Y    \  |  Y Y  \  Y Y  \  | \/  |   |  \/ /_/  >  |  |   |  | \// __ \_
+\____|__  /__|__|_|  /__|_|  /__|  |__|___|  /\___  /   |__|   |__|  (____  /
+        \/         \/      \/              \//_____/                      \/
+  ______ _______      __         .__  .__          __   
+ /  __  \\   _  \   _/  |______  |  | |  |   _____/  |_ 
+ >      </  /_\  \  \   __\__  \ |  | |  | _/ __ \   __\
+/   --   \  \_/   \  |  |  / __ \|  |_|  |_\  ___/|  |  
+\______  /\_____  /  |__| (____  /____/____/\___  >__|  
+       \/       \/             \/               \/       
